@@ -11,3 +11,4 @@
   + Windows: `.\env\Scripts\activate`
 + Install required packages: `pip install -r requirements.txt`
 + Run: `flask run`
++ There you have it :partying_face:
