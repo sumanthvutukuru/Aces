@@ -3,6 +3,12 @@ from werkzeug.utils import redirect
 from app import app
 
 bill = 0
+progress = {
+    "shirt": 4,
+    "pant": 6,
+    "shoes": 3,
+    "cap": 5
+}
 
 @app.route("/")
 def home():
@@ -10,7 +16,7 @@ def home():
 
 @app.route("/dashboard")
 def dashboard():
-    return render_template("dashboard.html")
+    return render_template("dashboard.html", progress=progress)
 
 @app.route("/billing", methods=["POST"])
 def handleBilling():
