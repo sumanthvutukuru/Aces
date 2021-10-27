@@ -11,4 +11,4 @@
   + Linux / macOS: `source env/bin/activate`
   + Windows: `.\env\Scripts\activate`
 + Install required packages: `pip install -r requirements.txt`
-+ Run: `flask run`
++ Run: `flask run` (don't forget to activate environemnt :sweat_smile:)
