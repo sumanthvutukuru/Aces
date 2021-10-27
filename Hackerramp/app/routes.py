@@ -10,11 +10,11 @@ progress = {
     "cap": 5
 }
 
-@app.route("/", method=["GET"])
+@app.route("/", methods=["GET"])
 def home():
     return render_template("home.html")
 
-@app.route("/dashboard", method=["GET"])
+@app.route("/dashboard", methods=["GET"])
 def dashboard():
     return render_template("dashboard.html", progress=progress)
 
