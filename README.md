@@ -3,6 +3,7 @@
 ## Gamifying Myntra
 
 ### To run on Local Server
++ If you have already cloned: `git pull`
 + Clone: `git clone https://github.com/sumanthvutukuru/Aces.git`
 + Change directory: `cd Aces/Hackerramp/`
 + Making virtual environment (best): `python3 -m venv env`
