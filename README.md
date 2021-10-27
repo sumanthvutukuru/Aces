@@ -12,3 +12,5 @@
   + Windows: `.\env\Scripts\activate`
 + Install required packages: `pip install -r requirements.txt`
 + Run: `flask run` (don't forget to activate environemnt :sweat_smile:)
++ Login Page: `localhost:5000/login`
++ Signup Page: `localhost:5000/signup`
